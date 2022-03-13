@@ -7,3 +7,13 @@ here i store some useful console commands that in need sometimes, most probably 
 ## Endeavour OS
 ```sudo pacman -S pamixer``` - currently tray icon uses pamixer to manage sound on mousewheel scroll, however, it looks like maintainters of eos-sway forgot to add it in default box, which caused silent errors in waybar scripts. 
 # [Neo]vim
+# sway
+
+```
+input type:keyboard {
+    xkb_layout us,pl,ru
+    xkb_variant nodeadkeys
+    xkb_options grp:alt_shift_toggle
+    }
+```
+Put into sway config to enable keyboard switch. The reason i corrected and added it here is that original doc contains wrong syntax and thus, setting does not work propertly at the moment.
