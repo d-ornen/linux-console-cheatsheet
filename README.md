@@ -7,6 +7,9 @@ here i store some useful console commands that in need sometimes, most probably 
 ## Endeavour OS
 ```sudo pacman -S pamixer``` - currently tray icon uses pamixer to manage sound on mousewheel scroll, however, it looks like maintainters of eos-sway forgot to add it in default box, which caused silent errors in waybar scripts. 
 # [Neo]vim
+Normal&Visual mode:
+```"+y``` - paste selected into system buffer (works on wayland)
+```"*y``` - paste into mouse middle click buffer
 # sway
 
 ```
