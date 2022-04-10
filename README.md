@@ -9,6 +9,7 @@ here i store some useful console commands that in need sometimes, most probably 
 # [Neo]vim
 Normal&Visual mode:
 ```"+y``` - paste selected into system buffer (works on wayland)
+
 ```"*y``` - paste into mouse middle click buffer
 # sway
 
