@@ -31,6 +31,7 @@ Normal&Visual mode:
 ```"+y``` - paste selected into system buffer (works on wayland)
 
 ```"*y``` - paste into mouse middle click buffer
+```:help fold/foldmethod``` - there is code folding feature like in modern ides, honestly, this was a big surprise for me. See help for more information.
 # sway
 
 ```
