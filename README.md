@@ -5,6 +5,11 @@ here i store some useful console commands that in need sometimes, most probably 
 ```grep -rnw './' -e 'input'``` - find recursively all files in current directory that contain 'input'. [Source](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux).
 # Small linux hacks
 ## Endeavour OS
+fast help for commands
+```
+tldr python
+tldr man
+```
 
 
 * Quickly install waydroid without dorking archwiki. [source](https://wiki.archlinux.org/title/Waydroid#DKMS_modules)
