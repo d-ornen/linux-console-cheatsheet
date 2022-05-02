@@ -20,6 +20,11 @@ show block devices (no need to ls /dev/sd<TAB>).
 lsscsi
 ```
     
+query udev device info
+ ```
+ udevadm info --query=all --name=/dev/sda
+ ```
+    
 extract from tar archive. source same as above.
 ## Endeavour OS
 fast help for commands
