@@ -24,6 +24,13 @@ show block devices (no need to ls /dev/sd<TAB>).
 lsscsi
 ```
 
+in case of emergency it is possible to use file as a swap space
+```
+# dd if=/dev/zero of=swap_file bs=1024k count=num_mb
+# mkswap swap_file
+# swapon swap_file
+```
+    
 show disk partitioning info
 ```
 sudo parted -l
