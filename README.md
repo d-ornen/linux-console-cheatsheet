@@ -13,6 +13,13 @@ create tar archive. [source](https://www.thegeekstuff.com/2010/11/50-linux-comma
 tar xvf archive_name.tar
 ```
 
+
+
+show block devices (no need to ls /dev/sd<TAB>).
+```
+lsscsi
+```
+    
 extract from tar archive. source same as above.
 ## Endeavour OS
 fast help for commands
