@@ -37,6 +37,16 @@ fast help for commands
 tldr python
 tldr man
 ```
+    
+show blk devices with their uids partuids, names, labels etc in neat form
+    ```
+    sudo blkid
+    ```
+    
+it is useful for mounting, cause we can pass partid or uuid like this
+    ```
+    sudo mount PARTUUID="c54d9a3f-01" /mnt
+    ```
 
 
 * Quickly install waydroid without dorking archwiki. [source](https://wiki.archlinux.org/title/Waydroid#DKMS_modules)
