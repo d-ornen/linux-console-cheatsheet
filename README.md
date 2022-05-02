@@ -4,6 +4,10 @@ here i store some useful console commands that in need sometimes, most probably 
 # Text searching
 ```grep -rnw './' -e 'input'``` - find recursively all files in current directory that contain 'input'. [Source](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux).
 # Small linux hacks
+the `mount` -n option could be useful in single user mode -n  because the system mount database may
+not be available at the time.
+
+
 ```
 tar cvf archive_name.tar dirname/
 ```
