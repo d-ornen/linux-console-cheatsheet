@@ -19,6 +19,11 @@ show block devices (no need to ls /dev/sd<TAB>).
 ```
 lsscsi
 ```
+
+show disk partitioning info
+```
+sudo parted -l
+```
     
 query udev device info
  ```
