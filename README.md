@@ -4,6 +4,16 @@ here i store some useful console commands that in need sometimes, most probably 
 # Text searching
 ```grep -rnw './' -e 'input'``` - find recursively all files in current directory that contain 'input'. [Source](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux).
 # Small linux hacks
+```
+tar cvf archive_name.tar dirname/
+```
+
+create tar archive. [source](https://www.thegeekstuff.com/2010/11/50-linux-commands/)
+```
+tar xvf archive_name.tar
+```
+
+extract from tar archive. source same as above.
 ## Endeavour OS
 fast help for commands
 ```
