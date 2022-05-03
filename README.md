@@ -17,6 +17,10 @@ create tar archive. [source](https://www.thegeekstuff.com/2010/11/50-linux-comma
 tar xvf archive_name.tar
 ```
 
+set packet routing option (often i need this, tbh)
+```
+sysctl -w net.ipv4.ip_forward
+```
 
 
 show block devices (no need to ls /dev/sd<TAB>).
