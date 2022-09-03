@@ -11,6 +11,10 @@ grep -rl oldtext . | xargs sed -i 's/oldtext/newtext/g'
 the `mount` -n option could be useful in single user mode -n  because the system mount database may
 not be available at the time.
 
+reformatting ugly C code in gnu style using tiny utility
+```
+indent -kr -i8 -ts8 -sob -l80 -ss -bs -psl <file>
+```
 
 ```
 tar cvf archive_name.tar dirname/
