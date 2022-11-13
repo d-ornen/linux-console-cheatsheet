@@ -4,22 +4,13 @@ here i store some useful console commands that in need sometimes, most probably 
 # Text searching
 ```grep -rnw './' -e 'input'``` - find recursively all files in current directory that contain 'input'. [Source](https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux).
 # Small linux hacks
-search recursively for oldtext and replace with newtext - useful for editing theme files. [Source](https://stackoverflow.com/questions/1583219/how-can-i-do-a-recursive-find-replace-of-a-string-with-awk-or-sed) 
-```
-grep -rl oldtext . | xargs sed -i 's/oldtext/newtext/g'
-```
+
 the `mount` -n option could be useful in single user mode -n  because the system mount database may
 not be available at the time.
-
-```
-tar cvf archive_name.tar dirname/
-```
 reformatting ugly C code in gnu style using tiny utility
 ```
 indent -kr -i8 -ts8 -sob -l80 -ss -bs -psl <file>
 ```
-
-create tar archive. [source](https://www.thegeekstuff.com/2010/11/50-linux-commands/)
 ```
 tar xvf archive_name.tar
 ```
